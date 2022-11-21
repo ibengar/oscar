@@ -59,7 +59,7 @@ const defaultMenu = {
 ┆♠︎ *Uptime:* : %uptime (%muptime)
 ┆♠︎ *Penulis Ulang:* Rizky ibeng
 ┗─────────────────⬣
-  
+%readmore`.trimStart(),
 header: '╔═❖〔 %category 〕❖════╗\n┃',
   body: '┃➺ %cmd %islimit %isPremium',
   footer: '┃\n╚══════════❖\n', 
