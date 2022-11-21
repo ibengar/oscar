@@ -8,7 +8,7 @@ let PhoneNumber = require("awesome-phonenumber");
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let hao = ` 
  *Official Bot By @${"0".split("@")[0]}* 
- *Powered By @${"6285850539404".split("@")[0]}*`;
+ *Powered By @${"6281257172080".split("@")[0]}*`;
   let package = JSON.parse(
     await fs.promises
       .readFile(path.join(__dirname, "../package.json"))
@@ -114,7 +114,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     key: {
       fromMe: false,
       participant: `0@s.whatsapp.net`,
-      ...(m.chat ? { remoteJid: "6285850539404-1625305606@g.us" } : {}),
+      ...(m.chat ? { remoteJid: "6281257172080-1625305606@g.us" } : {}),
     },
     message: {
       extendedTextMessage: {
@@ -133,10 +133,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┏─────────────────⬣
 ┆         《 BOT INFO 》
 ┗┬──────────────┈ ⳹
-┏┆⚘ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : OSCAR-MD
+┏┆⚘ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : IBENG-MD
 ┆┆⚘ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛
 ┆┆⚘ 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝙾𝚠𝚗𝚎𝚛
-┆┆http://wa.me/6285850539404
+┆┆http://wa.me/6281257172080
 ┆┆⚘ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${date}
 ┆┆⚘ 𝙹𝚊𝚖: ${time} WIB
 ┆┆⚘ 𝙼𝚘𝚍𝚎: 「 ${mode}  」
@@ -157,13 +157,13 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┆⚘ 𝚄𝚜𝚎𝚛 𝚁𝚎𝚐𝚒𝚜𝚝𝚎𝚛 ${totalreg}
 ┗─────────────────⬣`;
 
-  let ftt = `NOTE 📮 JIKA MENEMUKAN BUG/FITUR EROR SILAHKAN CHAT OWNER KAK JANGAN LUPA SUSCRIBE YOUTUBE BOT SEBAGAI BENTUK SUPORT BOT
+  let ftt = `NOTE 📮 JIKA MENEMUKAN BUG/FITUR EROR SILAHKAN CHAT OWNER KAK
 
  *Official Bot By @${"0".split("@")[0]}* 
- *Powered By @${"6285850539404".split("@")[0]}*`;
+ *Powered By @${"6281257172080".split("@")[0]}*`;
   const listMessage = {
     text: `𝙷𝚊𝚒 ${name} Jangan 𝚂𝚙𝚊𝚖 𝚈𝚊`.trim(),
-    footer: "Jangan Lupa Suscribe YouTube Bot Yah Kak >//<",
+    footer: "KONTOL BAPA KAO PECAH >//<",
     title: wm,
     buttonText: "Pilih Disini",
   };
